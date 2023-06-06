@@ -1,0 +1,57 @@
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    direction: rtl;
+    width: 100%;
+    margin-top: 3vh;
+    overflow: auto;
+}
+
+.title-info {
+    margin: auto;
+    color: #073147;
+    font-size: 5vmin;
+    font-weight: 500;
+    text-align: center;
+}
+
+.info-header {
+    color: #073147;
+    font-size: 6vmin;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.info-body {
+    font-size: 5vmin;
+    color: #1d2127;
+    margin: 2vh 6vw;
+    text-align: center;
+}
+
+.date-header {
+    color: #39b8d9;
+    font-size: 9vmin;
+    text-align: center;
+    margin: 0;
+    font-weight: 800;
+}
+
+.blue-thing {
+    background-image: url('../../media/blue_bubble.svg');
+}
+
+.orange-thing {
+    background-image: url('../../media/orange_bubble.svg');
+}
+
+.txt-thing {
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 5vh;
+    background-size: auto;
+    align-self: center;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+.main-person {
+    width: 80vw;
+    height:  fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+    padding: 1vh 4vw;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+    overflow: auto;
+    margin-bottom: 3vh;
+    text-decoration: none;
+}
+
+.talk-kind {
+    margin: 1vh 0;
+    font-size: 4.5vmin;
+}
+
+.main-card-content {
+    font-size: 5vmin;
+    font-weight: 400;
+    margin: 0;
+}
+
+.break-line {
+    width: 60%;
+    height: 0.1vh;
+    background-color: #2c2c2c;
+    margin: 1vh auto;
+}
+
+.displayed-text {
+    font-size: 5vmin;
+}
+
+.read-more-button {
+    text-decoration: none;
+    color: #001C72;
+}
+
+.main-pic {
+    width: 50vw;
+
+}
+
+.main-name {
+    font-size: 6vmin;
+    font-weight: 500;
+    margin: 0;
+}
+
+.main-talkName {
+    font-size: 5vmin;
+    font-weight: 800;
+}

@@ -1,0 +1,36 @@
+.person-card {
+    /* display: flex; */
+    direction: rtl;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 85vw;
+    height: 40vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+    direction: rtl;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    background-size: cover;
+    position: relative;
+    left: 37%;
+    top: 5vh;
+}
+
+.name {
+    direction: rtl;
+    position: relative;
+    left: 60%;
+    transform: translateX(-50%);
+    bottom: 40vh;
+    font-size: 5.5vmin;
+    font-weight: 600;
+}

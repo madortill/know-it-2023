@@ -1,0 +1,167 @@
+*{
+    direction: rtl;
+}
+
+.div-form {
+    display: flex;
+    margin: auto;
+    margin-top: 3vh;
+    flex-direction: column;
+    width: 90vw;
+    padding: 0 0.5em;
+    direction: ltr;
+    overflow: scroll;
+}
+
+.mb-3 {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text {
+    font-size: 5vmin;
+    margin-bottom: 1vh;
+}
+
+.dir-ltr {
+    direction: ltr;
+}
+
+.div-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-primary {
+    --bs-btn-color: #abd6e0;
+    --bs-btn-bg: #39b8d9;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.form-label {
+    font-size: 4vmin;
+    text-align: right;
+    margin-bottom: 1vh;
+    margin-right: 2vw;
+    font-weight: 500;
+}
+
+.form-control {
+    font-size: 4vmin;
+    border: none;
+    border-bottom: 0.5px solid #39b8d9;
+    background-color: #e3eaea;
+    padding: 0.5em;
+    width: 78vw;
+    height: 3vh;
+    margin: 0;
+    margin-bottom: 1vh;
+}
+
+.btn-primary {
+    font-size: 5vmin;
+    margin: 2vh auto;
+    width: 30vw;
+    font-weight: 500;
+    background-color: transparent;
+    border: 0.5px solid #f18a36;
+    border-radius: 1vmin;
+    padding: 2vmin;
+    text-align: center;
+    cursor: pointer;
+    color: #f18a36;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.form-select {
+    width: 83.5vw;
+    height: 5vh;
+}
+
+.extra-input {
+    margin-top: 2vh;
+}
+
+/* .bottom-keeper-form {
+    position: absolute;
+    top: 130vh;
+    width: 100vw;
+    height: 40vh;
+    z-index: -1;
+    background-color: #d2d2d2;
+    margin: auto;
+} */
+
+.pop-up-done {
+    width: 75vw;
+    height: 25vh;
+    background-image: url("../../media/blu_bli.svg");
+    background-size: 100% 100%;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 7vmin;
+    padding: 8vh 12vw;
+
+}
+
+.pop-up-white-screen {
+    background-color: white;
+    opacity: 0.6;
+    position: fixed;
+    right:0;
+    bottom:0;
+    left:0;
+    top: 0;
+    height: 100%;
+}
+
+.pop-up-button {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 0.5px solid #d1d1d1;
+    border-radius: 1vmin;
+    padding: 1vmin;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgb(153 81 25 / 18%) 0px 11px 16px 5px;
+    color: #f18a36;
+    font-size: 5vmin;
+    font-weight: 500;
+}
+
+.pop-up-screen {
+    display: none;
+}
+
+.regiser-comment {
+    font-size: 4.5vmin;
+    margin: 0;
+    margin-bottom: 1vh;
+    margin-right: 2vw;
+    font-weight: 400;
+}
+
+.shluglug3 {
+    position: fixed;
+    background-image: url("../../media/background_shluglugim.svg");
+    height: 60vh;
+    width: 20vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    top: 45vh;
+    left: 3vw;
+    z-index: -10;
+}

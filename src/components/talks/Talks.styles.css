@@ -1,0 +1,19 @@
+.talks {
+    margin: auto;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.talks-header {
+    margin: 0;
+    font-size: 8vmin;
+    font-weight: 400;
+    margin-bottom: 2vh;
+}ç
+
+.show-more-less-clickable {
+    color: #39B8D9;
+    font-weight: 600;
+    width: 60vw;
+}

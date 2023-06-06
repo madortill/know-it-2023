@@ -1,0 +1,25 @@
+.block {
+    width: 50vw;
+    height: 70vh;
+    background-image: url("../../media/blu_bli.svg");
+    font-size: 4vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 20;
+}
+
+.block-white-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    opacity: 0.3;
+}

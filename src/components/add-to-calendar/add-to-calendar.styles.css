@@ -1,0 +1,44 @@
+@import 'add-to-calendar-button/assets/css/atcb.css';
+
+.link-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    margin-top: 3vh;
+}
+/* .link {
+    padding: 1vh 3vw;
+    background-color: #fbf8f5;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-style: none;
+    font-size: 2.5vh;
+    text-decoration: none;
+    margin: 1vh 1vw;
+    color: black;
+} */
+
+.waze-btn {
+    background-image: url('../../media/waze.png');
+    background-image: url('../../media/bus.png');
+    background-image: url('../../media/bg.png');
+    background-image: url('../../media/waze-_icon.svg');
+    width: 16vw;
+    height: 9vh;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0 5vw;
+}
+
+.calendar-btn {
+    background-image: url('../../media/calendar_icon_1.svg');
+    background-color: transparent;
+    border: none;
+    width: 16.5vw;
+    height: 8vh;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0 5vw;
+}
+

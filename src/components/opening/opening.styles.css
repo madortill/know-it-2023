@@ -1,0 +1,118 @@
+.opening {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.main-header {
+    color: #073147;
+    font-size: 7vmin;
+    width: 80vw;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.opening-txt1 {
+    direction: rtl;
+    color: #303336;
+    font-size: 4.5vmin;
+    width: 80vw;
+    font-weight: 400;
+    margin: 4vh auto;
+    margin-bottom: 1vh;
+}
+
+.opening-txt {
+    direction: rtl;
+    color: #25272b;
+    font-size: 5.5vmin;
+    width: 90vw;
+    font-weight: 500;
+    margin: 1.5vw;
+}
+
+.opening-txt2 {
+    direction: rtl;
+    color: #142d3d;
+    font-size: 5.5vmin;
+    width: 85vw;
+    font-weight: 500;
+    margin-top: 2vh;
+}
+
+.more-info-btn {
+    position: relative;
+    color: white;
+    font-size: 5vmin;
+    margin: 6vh auto;
+    width: 50vw;
+    font-weight: 500;
+    background-color: #f18a36;
+    border: none;
+    border-radius: 1vmin;
+    padding: 1vmin;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgb(153 81 25 / 18%) 0px 11px 16px 5px;
+}
+.text-background {
+    background-color: rgba(241, 174, 119, 0.3);
+    border-radius: 1.5em;
+    padding: 0 1em;
+}
+
+/* #Slider::after{
+    background-image: url('../../media/bg-after.svg');
+    content: '';
+    background-repeat: no-repeat;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 40vh;
+    bottom: 11%;
+    left: 3%;
+    z-index: -1;
+}   */
+
+.bottom-keeper {
+    /* position: absolute;
+    top: 210vh; */
+    width: 100%;
+    height: 40vh;
+    background-color: #d2d2d2;
+}
+
+.shluglug1 {
+    position: absolute;
+    background-image: url("../../media/background_shluglugim2.svg");
+    height: 25vh;
+    width: 20vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    top: 30vh;
+    right: 6vw;
+    z-index: -1;
+}
+
+.shluglug2 {
+    position: fixed;
+    background-image: url("../../media/background_shluglugim.svg");
+    height: 40vh;
+    width: 20vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    top: 75vh;
+    left: 3vw;
+    z-index: -10;
+}
+
+.primary-edit {
+    margin: 1vh 0;
+}
+
+.intro-video {
+    margin: 0;
+    margin-bottom: 3em;
+}

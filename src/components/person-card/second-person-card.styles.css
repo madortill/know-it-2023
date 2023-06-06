@@ -1,0 +1,86 @@
+.second-person {
+    width: 84vw;
+    height:  fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+    padding: 1vh 2vw;
+    display: flex;
+    /* flex-direction: column; */
+    overflow: auto;
+    margin-bottom: 3vh;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+
+}
+
+.second-person-pic {
+    width: 30vw;
+    align-self: flex-start;
+    /* position: relative;
+    right: -33%; */
+    margin: 0;
+}
+
+.second-person-talk-name {
+    font-size: 6vmin;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 3vh;
+    margin-right: 1vw;
+    width: 50vw;
+    align-self: flex-start;
+}
+
+.second-person-name {
+    font-size: 4.5vmin;
+    font-weight: 400;
+    margin: 0;
+    width: 50vw;
+    align-self: flex-start;
+}
+
+.second-card-content {
+    font-size: 4.5vmin;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 4vh;
+    width: 70vw;
+    align-self: flex-start;
+}
+
+.second-line {
+    width: 50%;
+    height: 0.1vh;
+    position: relative;
+    left: -15%;
+    background-color: #4d4d4d;
+    margin: 1vh auto;
+}
+.sign-up-button {
+    width: 30vw;
+    height: 4vh;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    color: #F18A35;
+    font-size: 5vmin;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    border: solid;
+    border-color: #F18A35;
+    border-width: 0.7px;
+    position: relative;
+    left: -30%;
+}
+
+.second-person-job {
+    font-size: 4vmin;
+    font-weight: 400;
+    margin: 0;
+    width: 50vw;
+    align-self: flex-start;
+    color: #4d4d4d;
+}

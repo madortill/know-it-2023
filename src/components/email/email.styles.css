@@ -1,0 +1,14 @@
+
+.page-end {
+    height: 30vh;
+    background-color: rgb(198, 198, 198);
+    width: 100%;
+    margin-top: 4vh;
+    padding-top: 2vh;
+}
+.bottom-header {
+    color: #073147;
+    font-size: 5vmin;
+    width: 100%;
+    font-weight: 500;
+}
